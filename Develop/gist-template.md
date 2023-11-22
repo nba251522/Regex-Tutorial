@@ -28,7 +28,9 @@ In this tutorial, we will break down the following regex, which is used to valid
 - `^`: This anchor asserts the start of a line.
 - `$`: This anchor asserts the end of a line.
 ### Quantifiers
-
+- `([a-z0-9_\.-]+)`: This part captures the user name in an email address.
+- `[a-z0-9_\.-]`: This character set includes lowercase alphabetic characters, digits, underscores, dots, and hyphens.
+- `+`: This indicates that the preceding character set ([a-z0-9_\.-]) must appear at least once but can be repeated multiple times. This means the user name part of the email can contain any combination and number of these characters, as long as it has at least one.
 ### OR Operator
 
 ### Character Classes
