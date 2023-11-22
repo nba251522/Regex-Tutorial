@@ -25,7 +25,8 @@ In this tutorial, we will break down the following regex, which is used to valid
 ## Regex Components
 
 ### Anchors
-
+- `^`: This anchor asserts the start of a line.
+- `$`: This anchor asserts the end of a line.
 ### Quantifiers
 
 ### OR Operator
