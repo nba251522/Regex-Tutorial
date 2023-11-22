@@ -32,7 +32,7 @@ In this tutorial, we will break down the following regex, which is used to valid
 - `[a-z0-9_\.-]`: This character set includes lowercase alphabetic characters, digits, underscores, dots, and hyphens.
 - `+`: This indicates that the preceding character set ([a-z0-9_\.-]) must appear at least once but can be repeated multiple times. This means the user name part of the email can contain any combination and number of these characters, as long as it has at least one.
 ### OR Operator
-
+While the OR operator, represented by the pipe symbol `|`, is a crucial component in many regular expressions, it is not directly used in our specific regex for email validation (`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`). The OR operator allows for the matching of one out of several possible characters or sequences and is commonly employed in more complex regex patterns to cater to various formats or conditions. However, in the simpler form of regex for email validation we are discussing, this operator does not play a role.
 ### Character Classes
 
 ### Flags
