@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# # Understanding Email Validation Using Regex(Regular Expressions)
 
-Introductory paragraph (replace this with your text)
+This tutorial explains how regular expressions (regex) can be used to validate email addresses. Regular expressions provide a powerful way to match patterns in strings, and in this case, ensure that email addresses are in a valid format.
 
 ## Summary
 
